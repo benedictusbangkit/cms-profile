@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tech_skills",
+  "info": {
+    "singularName": "tech-skill",
+    "pluralName": "tech-skills",
+    "displayName": "tech_skill"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tech_logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "tech_name": {
+      "type": "string"
+    },
+    "level": {
+      "type": "string"
+    }
+  }
+}
